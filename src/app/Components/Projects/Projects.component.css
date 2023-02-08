@@ -1,0 +1,166 @@
+.main{
+    
+    margin-bottom:-80px ;
+    background-color: #ffffff;
+    opacity: 1;
+    
+    
+    }
+
+    .header h1{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: #111;
+        font-weight: 800;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-top: 8%;
+   }
+
+
+   .header  p{
+
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+
+.header{
+    
+
+}
+
+.projects-section{
+    left: 50%;
+    padding-bottom: 8%;
+}
+
+
+.project-row{
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:100px ;
+    padding-top: 100px;
+    margin: auto;
+    
+    }
+
+    .project-row img{
+        height: 330px;
+        
+    }
+
+    .project-content{
+        padding-left: 20px;
+        width: 400px;
+        
+    }
+
+    .project-row h3{
+        color: #333333;
+        font-size: 22px;
+    }
+
+    .project-row p{
+        color: #666;
+        font-size: 18px;
+    }
+
+
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+ 
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+    @media (max-width:1000px){
+        .header p{font-size: 17px;}
+        .header h1{font-size: 27px;}
+        .project-row{
+           display: unset;
+        }
+        
+        .project-row h3{
+            text-align: center;
+            font-size: 27px;
+            height: 20px;
+        }
+
+        .project-row img{
+            padding-top: 60px;
+            margin-left: 10%;
+            height: 40vw;
+        }
+        .project-row p{
+            font-size: 17px;
+            text-align: center;
+            padding-bottom:30px ;
+            
+        }
+
+            .project-content{
+                padding-left: 10px;
+                padding-bottom: 60px;
+                width: 95vw;
+            }
+
+            .button-29{
+                margin: -20px -53px; 
+                position:relative;
+                top:50%; 
+                left:50%;           
+            }
+
+    }
