@@ -1,5 +1,6 @@
 .main{
-     height: calc(100vh - 80px);
+     height: calc(100vh - 0px);
+     margin-bottom:-80px ;
      background-color: #f7f7f7;
      opacity: 1;
      background-image:  linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77), linear-gradient(60deg, #ffffff77 25%, transparent 25.5%, transparent 75%, #ffffff77 75%, #ffffff77);
@@ -17,7 +18,7 @@ h1{
      letter-spacing: 2px;
      text-align: center;
      
-     padding-top: 10%;
+     padding-top: 8%;
 }
 
 p{
@@ -44,7 +45,7 @@ button{
      background-color: white;
      left:50%;
      height:60px; 
-     padding-top: 5px;
+     padding-top: 9px;
      padding-left: 13px;
      padding-right: 10px;
      width:145px; 
@@ -52,7 +53,7 @@ button{
      margin-top: 30px;
      position:relative;
      display: flex;
-     box-shadow: 5px 10px 10px #888888;
+     box-shadow: 5px 5px 10px rgba(139, 139, 139, 0.821);
 
 }
 
@@ -99,7 +100,8 @@ width: 50px;}
 
 
 .AccountsLinks a:hover{
-     background-color:  rgba(0, 157, 205, 0.821);
+     background-color:  rgba(0, 154, 201, 0.821);
+     -webkit-transition: 0.5s;
      border-radius: 10px;
 }
 
@@ -109,7 +111,7 @@ width: 50px;}
 
 
 @media (max-width:750px) {
-     .main{max-height: 50vh;}
+     .main{max-height: 60vh;}
 
      .mouse {
           display: none;
@@ -131,14 +133,30 @@ width: 50px;}
           font-size: 20px;
      }
      .AccountsLinks{
-          top: 3vh;
+      top: 10vh;
+      border-radius: 10px;
+      background-color: white;
+      left:50%;
+      height:60px; 
+      padding-top: 9px;
+      padding-left: 13px;
+      padding-right: 10px;
+      width:145px; 
+      margin: -50px -85px;
+      margin-top: 30px;
+      position:relative;
+      display: flex;
+      box-shadow: 5px 5px 10px rgba(0, 157, 205, 0.821);
      }
+     .AccountsLinks a{height: 30px;
+      margin-left: 15px;
+      }
     
     
 }
 
 @media (max-width:450px) {
-     .main{max-height: 50vh;}
+     .main{max-height: 60vh;}
 
      button{
           height: 40px;
@@ -154,7 +172,26 @@ width: 50px;}
           font-size: 18px;
      }
 
+     .AccountsLinks{
+      top: 10vh;
+      border-radius: 10px;
+      background-color: white;
+      left:50%;
+      height:60px; 
+      padding-top: 9px;
+      padding-left: 13px;
+      padding-right: 10px;
+      width:145px; 
+      margin: -50px -85px;
+      margin-top: 30px;
+      position:relative;
+      display: flex;
+      box-shadow: 5px 5px 10px rgba(0, 157, 205, 0.821);
+     }
 
+     .AccountsLinks a{height: 30px;
+      margin-left: 15px;
+      }
     
 }
 
@@ -178,7 +215,7 @@ width: 50px;}
      top: 10px;
      left: 50%;
      transform: translateX(-50%);
-     background-color: #333;
+     background-color: rgba(0, 157, 205, 0.821);
      border-radius: 50%;
      opacity: 1;
      animation: wheel 2s infinite;
@@ -200,7 +237,7 @@ width: 50px;}
    .scroll {
      width: 60px;
      height: 60px;
-     border: 2px solid #333;
+     border: 2px solid #333333;
      border-radius: 50%;
      position: relative;
      animation: down 1.5s infinite;

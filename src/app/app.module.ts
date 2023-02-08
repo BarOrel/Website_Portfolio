@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './Components/About/About.component';
 import { NavbarComponent } from './Components/Navbar/Navbar.component';
 import { PressentationComponent } from './Components/Pressentation/Pressentation.component';
+import { ProjectsComponent } from './Components/Projects/Projects.component';
 import { HomeComponent } from './Pages/Home/Home.component';
+import { ProjectComponent } from './Pages/Project/Project.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { HomeComponent } from './Pages/Home/Home.component';
     HomeComponent,
     NavbarComponent,
     PressentationComponent,
-    AboutComponent
+    AboutComponent,
+    ProjectComponent,
+    ProjectsComponent
   
   ],
   imports: [
