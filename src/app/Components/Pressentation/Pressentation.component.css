@@ -1,5 +1,6 @@
 .main{
      height: calc(100vh - 0px);
+     min-height: 500px;
      margin-bottom:-80px ;
      background-color: #f7f7f7;
      opacity: 1;
@@ -105,8 +106,8 @@ width: 50px;}
 
 .AccountsLinks a:hover{
   
-     background-color:  rgba(0, 157, 205, 0.821);
-     
+     background-color:  rgba(0, 157, 205, 0.581);
+     -webkit-transition: 0.5s;
      border-radius: 10px;
 }
 
@@ -139,30 +140,35 @@ width: 50px;}
           font-size: 20px;
      }
      .AccountsLinks{
-      top: 10vh;
+      top: 0vh;
       border-radius: 10px;
       background-color: white;
       left:50%;
-      height:60px; 
+      height:30px; 
       padding-top: 9px;
       padding-left: 13px;
       padding-right: 10px;
-      width:145px; 
-      margin: -50px -85px;
+      width:50px; 
+      margin: -50px -31px;
       margin-top: 30px;
       position:relative;
       display: flex;
-      box-shadow: 5px 5px 10px rgba(0, 157, 205, 0.821);
+      box-shadow: 5px 5px 10px rgba(196, 196, 196, 0.821);
      }
      .AccountsLinks a{height: 30px;
-      margin-left: 15px;
+      width: 35px;
+      margin-left: -6px;
+      
+      margin-top: -3px;
       }
+      .AccountsLinks img{height: 30px;
+        width: 35px;}
     
     
 }
 
 @media (max-width:450px) {
-     .main{max-height: 60vh;}
+     .main{}
 
      button{
           height: 40px;
@@ -178,26 +184,9 @@ width: 50px;}
           font-size: 18px;
      }
 
-     .AccountsLinks{
-      top: 10vh;
-      border-radius: 10px;
-      background-color: white;
-      left:50%;
-      height:60px; 
-      padding-top: 9px;
-      padding-left: 13px;
-      padding-right: 10px;
-      width:145px; 
-      margin: -50px -85px;
-      margin-top: 30px;
-      position:relative;
-      display: flex;
-      box-shadow: 5px 5px 10px rgba(0, 157, 205, 0.821);
-     }
+     
 
-     .AccountsLinks a{height: 30px;
-      margin-left: 15px;
-      }
+     
     
 }
 
