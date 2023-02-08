@@ -3,7 +3,7 @@
     margin-bottom:-80px ;
     background-color: #ffffff;
     opacity: 1;
-    
+    z-index: 3;
     
     }
 
@@ -62,7 +62,7 @@
 
     .project-content{
         padding-left: 20px;
-        width: 400px;
+        
         
     }
 
@@ -134,26 +134,29 @@
         
         .project-row h3{
             text-align: center;
-            font-size: 27px;
+            font-size: 4vw;
             height: 20px;
         }
 
         .project-row img{
             padding-top: 60px;
-            margin-left: 10%;
+            margin-left: 9%;
             height: 40vw;
         }
         .project-row p{
-            font-size: 17px;
+            font-size:  2.1vh;
+            
             text-align: center;
             padding-bottom:30px ;
             
         }
 
             .project-content{
-                padding-left: 10px;
+                padding-left: unset;
+                width: unset;
+                padding: 17px;
                 padding-bottom: 60px;
-                width: 95vw;
+                
             }
 
             .button-29{
