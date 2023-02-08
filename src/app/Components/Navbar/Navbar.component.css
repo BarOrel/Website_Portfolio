@@ -52,11 +52,12 @@
     
  }
  h2{
+  
      text-transform: uppercase;
      padding-left: 20px;
      max-width: 140px;
      color: #333;
-     letter-spacing: 1px;
+     letter-spacing: 0px;
      font-weight: 550;
      font-size: 23px;
      
