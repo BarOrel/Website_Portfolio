@@ -9,6 +9,7 @@ import { PressentationComponent } from './Components/Pressentation/Pressentation
 import { ProjectsComponent } from './Components/Projects/Projects.component';
 import { HomeComponent } from './Pages/Home/Home.component';
 import { ProjectComponent } from './Pages/Project/Project.component';
+import { ScrollService } from './Services/ScrollService.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { ProjectComponent } from './Pages/Project/Project.component';
 
   
   ],
-  providers: [],
+  providers: [ScrollService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -13,13 +13,11 @@
  }
  .NameSec{
      display: flex;
-     margin-left: 2rem;
+     margin-left: 4rem;
      width: 220px;
      
  }
- .Dropdown{
-    display: none;
- }
+
 
  .Navibtn{ 
      color: #ffffff;  
@@ -31,8 +29,8 @@
      
  }
  img {
-     height: 50px ;
-     margin-top: 0.9rem;
+     height: 60px ;
+     margin-top: 0.7rem;
      border-radius: 40px;
  }
  
@@ -72,20 +70,21 @@
 
 
   @media (max-width:750px) {
+    .NameSec{margin-left: 1.6rem;}
     h2{
         font-size: 20px;
     }
     img{
         margin-top: 0.25rem;
     }
-
     
-
-
     .Navibtn{display: none;}
     
-    .dropbtn{display: none;}
+
   }
+
+    
+    
 
 
 
@@ -95,12 +94,13 @@
   /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
-    color: black;
+    color: #ffffff;
     padding: 16px;
     font-size: 16px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 8px;
     border: none;
+    
     
 
   }
@@ -108,7 +108,7 @@
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    display: none;
+    
   }
   
   /* Dropdown Content (Hidden by Default) */
