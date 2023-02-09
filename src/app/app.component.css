@@ -2,3 +2,7 @@
      
      
 }
+.navbar{
+    z-index: 4;
+    position: relative;
+}

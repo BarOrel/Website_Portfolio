@@ -11,7 +11,7 @@
         font-family: 'Source Sans Pro',sans-serif;
         font-size: 2.5rem;
         text-transform: uppercase;
-        color: #111;
+        color:  #191e27;
         font-weight: 800;
         letter-spacing: 2px;
         text-align: center;
@@ -20,7 +20,7 @@
 
 
    .header  p{
-
+    color: #333333;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -67,7 +67,7 @@
     }
 
     .project-row h3{
-        color: #333333;
+        color:  #191e27;
         font-size: 22px;
     }
 

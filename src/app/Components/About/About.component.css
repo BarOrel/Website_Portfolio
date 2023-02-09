@@ -24,13 +24,28 @@ h1 {
 }
 
 .container {
-  display: flex; 
+ 
+  margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+
 }
 
 .container h3 {
   font-size: 30px;
   font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
 }
+
+
+.container p {
+  color: #555;
+  font-size: 26px;
+  text-align: center;
+}
+
 
 .skillset {
   margin-left: -20px;
@@ -52,6 +67,8 @@ h1 {
 
 .knowme-section p {
   font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 1200px) {
@@ -115,5 +132,6 @@ h1 {
   }
   p {
     text-align: center;
+    font-size: 10vw;
   }
 }

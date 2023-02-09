@@ -4,4 +4,11 @@
      background-color: #ff0000;
      margin-top: 80px;
      }
-     
+     .pressentation{
+      z-index: 0;
+      position: relative;
+     }
+     .Projects{
+          z-index: 1;
+          position: relative;
+     }
