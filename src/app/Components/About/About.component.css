@@ -55,7 +55,9 @@ h1 {
 }
 
 @media (max-width: 1200px) {
-  
+  .main{
+    height: 130vh;
+  }
   .container {
     width: 90vw;
     display: block;
@@ -106,7 +108,7 @@ h1 {
 }
 
   .skill {
-    font-size: 22px;
+    font-size: 18px;
     color: #666;
     padding: 6px;
     text-align: center;
