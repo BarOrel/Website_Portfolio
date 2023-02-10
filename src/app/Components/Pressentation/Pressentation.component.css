@@ -119,11 +119,19 @@ width: 50px;}
 
 .AccountsLinks a:hover{
   
-     background-color:  rgba(0, 157, 205, 0.581);
+     
      -webkit-transition: 0.5s;
-     border-radius: 10px;
+     
 }
 
+.AccountsLinks a:hover img{
+  
+  
+  height: 60px;
+  margin-left: -0px;
+  -webkit-transition: 0.5s;
+  
+}
 
 
 

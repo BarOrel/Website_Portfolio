@@ -15,7 +15,9 @@ p {
   font-weight: 300;
   color: #fff;
 }
-
+a{
+  
+}
 .container {
   padding-top: 1vh;
   padding-bottom: 1vh;
@@ -26,9 +28,19 @@ p {
 
 .Links {
   display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.Links a:hover img{
+  height: 50px;
+     
+  -webkit-transition: 0.5s;
+  
 }
 
 img {
+  
   height: 43px;
 }
 
