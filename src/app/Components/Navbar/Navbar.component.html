@@ -11,14 +11,14 @@
     <a (click)="NaviToAbout()" >About</a>
     <a>Contact</a>
   </div>
-  <div class="dropdown"  >
-    <button class="dropbtn"><span class="material-symbols-outlined">
+  <div class="dropdown"  *ngIf="currentWindowWidth < 750"   >
+    <button class="dropbtn" (click)="OpenMenu()"><span class="material-symbols-outlined">
       menu
       </span></button>
-    <div class="dropdown-content">
+    <div class="dropdown-content" id="dropdown-content">
       <a (click)="NaviToHome()">Home</a>
-      <a (click)="NaviToAbout()">About</a>
       <a (click)="NaviToProjects()">Projects</a>
+      <a (click)="NaviToAbout()">About</a>
       <a href="#">Contact</a>
     </div>
   </div>

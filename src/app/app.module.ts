@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './Components/About/About.component';
+import { FooterComponent } from './Components/Footer/Footer.component';
 import { NavbarComponent } from './Components/Navbar/Navbar.component';
 import { PressentationComponent } from './Components/Pressentation/Pressentation.component';
 import { ProjectsComponent } from './Components/Projects/Projects.component';
@@ -19,7 +20,8 @@ import { ScrollService } from './Services/ScrollService.service';
     PressentationComponent,
     AboutComponent,
     ProjectComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent
   
   ],
   imports: [

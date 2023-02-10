@@ -11,7 +11,7 @@ h1 {
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
-
+  padding-top: 6%;
 }
 
 .heads p {
@@ -48,12 +48,15 @@ h1 {
 
 
 .skillset {
-  margin-left: -20px;
-  display: block;
+ 
 }
 .skillline {
   display: flex;
   margin-top: 20px;
+  
+  width:100%;
+  display: flex;
+  justify-content: center;
 }
 .skill {
   margin-left: 17px;
@@ -73,7 +76,7 @@ h1 {
 
 @media (max-width: 1200px) {
   .main{
-    height: 130vh;
+    height: 140vh;
   }
   .container {
     width: 90vw;
@@ -81,16 +84,18 @@ h1 {
     padding-top: 15px;
   }
   .skill-section {
-    width: 100vw;
+    width: 90vw;
     padding-top: 3%;
   }
- 
+  h1{
+    padding-top: 8rem;
+  }
   .skill-section h3 {
     text-align: center;
   }
 
   .skillset {
-    margin-top: 75px;
+    margin-top: 25px;
   }
   h3 {
     
@@ -110,18 +115,17 @@ h1 {
   }
 
   .knowme-section{
-      width: 100vw;
-      padding-left: 0px;
-      padding-right: 0px;
+      width: 90vw;
+     
   }
   .knowme-section h3{
     text-align: center;
 }
 
 .knowme-section p{
+  font-size: 2vh;
   
-  padding-left: 20px;
-  padding-right: 20px;
+  
 }
 
   .skill {
@@ -134,4 +138,29 @@ h1 {
     text-align: center;
     font-size: 10vw;
   }
+}
+
+
+@media (max-height: 900px) {
+  .main{
+    height: 130vh;
+  }
+  p{font-size: 10vh;}
+
+  
+
+}
+
+@media (max-height: 700px) {
+  .main{
+    height: 160vh;
+  }
+  
+  .skill {
+    font-size: 14px;
+    color: #666;
+    padding: 6px;
+    text-align: center;
+  }
+
 }
