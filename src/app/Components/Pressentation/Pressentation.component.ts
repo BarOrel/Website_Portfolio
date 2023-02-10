@@ -8,8 +8,10 @@ import { ScrollService } from 'src/app/Services/ScrollService.service';
 })
 export class PressentationComponent implements OnInit {
 
-  constructor(private scrollService: ScrollService) { }
-
+  constructor(private scroll:ScrollService) { }
+  Scroll(){
+    this.scroll.scrollToProjects()
+  }
   ngOnInit() {
   }
 

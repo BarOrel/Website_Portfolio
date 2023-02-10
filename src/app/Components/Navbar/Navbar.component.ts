@@ -23,9 +23,7 @@ NaviToAbout() {
   constructor(private Scroll:ScrollService) { }
 
   ngOnInit() {
-    if (window.screen.width === 760) { // 768px portrait
-      this.mobile = true;
-    }
+    
   }
 
 }
