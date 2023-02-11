@@ -23,24 +23,27 @@ OpenMenu(){
   }
 }
 
-NaviToHome() {
+  async NaviToHome() {
+  await this.router.navigate(['']);
   this.Scroll.scrollToHome();
   if(this.currentWindowWidth < 750){
   document.getElementById(`dropdown-content`)!.style.display='none';}
   
 }
-NaviToProjects() {
+  async NaviToProjects() {
+    await this.router.navigate(['']);
     this.Scroll.scrollToProjects();
     if(this.currentWindowWidth < 750){
     document.getElementById(`dropdown-content`)!.style.display='none';}
 }
-NaviToAbout() {
+  async NaviToAbout() {
+    await this.router.navigate(['']);
     this.Scroll.scrollToAbout();
     if(this.currentWindowWidth < 750){
     document.getElementById(`dropdown-content`)!.style.display='none';}
 }
 
-  constructor(private Scroll:ScrollService) { }
+  constructor(private Scroll:ScrollService,private router:Router) { }
   
  
   ngOnInit() {

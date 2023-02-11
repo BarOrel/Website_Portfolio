@@ -1,0 +1,8 @@
+.main{
+    height: calc(100vh - 0px);
+    min-height: 500px;
+  
+    background: radial-gradient(ellipse at bottom, #354c65 0%, #090a0f 100%);
+    
+    
+    }

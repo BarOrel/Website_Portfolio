@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ScrollService } from 'src/app/Services/ScrollService.service';
 
 @Component({
@@ -7,8 +8,12 @@ import { ScrollService } from 'src/app/Services/ScrollService.service';
   styleUrls: ['./Projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+NavigateToProject1() {
+this.router.navigate(['/Project/ChatApplication'])
 
-  constructor() { }
+}
+
+  constructor(private router:Router) { }
   
  
 
