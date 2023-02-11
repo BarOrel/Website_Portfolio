@@ -20,6 +20,12 @@ export class ScrollService {
     this.scrollToElement(element);
   }
 
+  scrollToTop() {
+    const element = this.__getElementById("ProjectPage");
+    this.scrollToElement(element);
+  }
+
+
 
 
   private __getElementById(id: string): HTMLElement {

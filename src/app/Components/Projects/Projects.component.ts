@@ -8,12 +8,22 @@ import { ScrollService } from 'src/app/Services/ScrollService.service';
   styleUrls: ['./Projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-NavigateToProject1() {
-this.router.navigate(['/Project/ChatApplication'])
-
+  constructor(private router:Router,private scroll:ScrollService) { }
+  
+  
+  async NavigateToProject1() {
+    await this.router.navigate(['/Project/ChatApplication'])
+    this.scroll.scrollToTop()
+}
+  async NavigateToProject2() {
+    await this.router.navigate(['/Project/1'])
+    this.scroll.scrollToTop()
+}
+  async NavigateToProject3() {
+    await this.router.navigate(['/Project/2'])
+    this.scroll.scrollToTop()
 }
 
-  constructor(private router:Router) { }
   
  
 

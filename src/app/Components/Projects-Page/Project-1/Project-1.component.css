@@ -1,8 +1,75 @@
-.main{
-    height: calc(100vh - 0px);
-    min-height: 500px;
+.main {
+  height: calc(70vh - 80px);
+  min-height: 500px;
+  margin-top: 80px;
+
+  background: radial-gradient(ellipse at bottom, #354c65 0%, #354c65 100%);
+ 
+}
+h1 {
+  color: #ffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 45px;
+  padding-top: 10vh;
   
-    background: radial-gradient(ellipse at bottom, #354c65 0%, #090a0f 100%);
+}
+img{
     
+    width:40%;
     
+}
+
+.imgsec{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+  color: #ffff;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 3vh;
+}
+
+.line {
+  width: 150px;
+}
+
+.ButtonsHead {
+  padding-top: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btns {
+  display: flex;
+}
+.space {
+  width: 30px;
+}
+.ProjectOverView {
+  height: calc(170vh - 80px);
+  z-index: 4;
+  position: relative;
+  min-height: 500px;
+  margin-top: 80px;
+  background: #fff;
+}
+
+@media (max-width:800px){
+    h1{font-size: 33px;
+        padding-top: 4vh;
     }
+    p{font-size: 22px;
+        padding: 10px;
+    }
+
+    
+.ButtonsHead {
+    
+    padding-top: 3vh;}
+
+}
