@@ -15,8 +15,14 @@ h1 {
   padding-top: 10vh;
   
 }
+.images{width: 90vw;}
 img{ 
-    width:50vw;
+    width:70vw;
+}
+.imgdiv{
+    width:50%;
+    display: flex;
+    justify-content: center;
 }
 
 .imgsec{
