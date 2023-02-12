@@ -93,7 +93,7 @@ width: 50px;}
 
 
 @media(max-width:750px) {
-     .main{max-height: 50vh;}
+     .main{max-height: auto;}
 
      .mouse {
           display: none;
@@ -144,7 +144,7 @@ width: 50px;}
 }
 
 @media (max-width:450px) {
-     .main{}
+     .main{height:auto}
 
      button{
           height: 40px;

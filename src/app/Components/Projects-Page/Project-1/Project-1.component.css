@@ -49,7 +49,7 @@ p {
   width: 30px;
 }
 .ProjectOverView {
-  height: calc(170vh - 80px);
+  /* height: calc(170vh - 80px); */
   z-index: 3;
   position: relative;
   min-height: 500px;
@@ -86,6 +86,7 @@ p {
 
 .skill-section{
 
+  padding-bottom: 10vh;
 }
 .SkillH3{
     padding-top: 6vh;
@@ -118,7 +119,10 @@ p {
 
 
 @media (max-width:800px){
-    .ProjectOverView {height: 220vh;} 
+    /* .ProjectOverView {height: 220vh;}  */
+
+    .main {
+      height: auto;}
     .skill-section{
       margin-left: -20px;
     }
@@ -160,7 +164,7 @@ p {
 
 }
 
-
+/* 
 @media (max-width:500px){
   .ProjectOverView {height: 140vh;} 
 }
@@ -172,4 +176,4 @@ p {
 @media (max-height:850px){
   .ProjectOverView {height: 170vh;} 
 }
-
+ */
