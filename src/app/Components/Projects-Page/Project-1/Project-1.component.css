@@ -163,8 +163,10 @@ text-align: center;}
     padding-left: 10vw;
   }
   .project-content img{
-    width: 95vw;
-    padding-left: 8vw;}
+   margin-left: 5vw;
+   width: 90vw;
+   
+  }
 
     .skill {font-size: 13px;}
     img{ 
