@@ -90,14 +90,14 @@ a {
 
 @media (max-width:400px){
   .space {
-    padding-left: 10px;
+    padding-left: 0px;
   }
   
 }
 @media (max-width:850px){
 
   .space {
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .programingimg{
     display: none;
