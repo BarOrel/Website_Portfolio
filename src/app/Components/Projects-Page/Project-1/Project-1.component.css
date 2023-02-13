@@ -85,7 +85,7 @@ p {
 }
 .project-content p{
   font-size: 25px;
-  max-width: 65vw;
+  width: 65vw;
   padding-top: 3vh;
   padding-bottom: 3vh;
 text-align: center;}
@@ -143,32 +143,32 @@ text-align: center;}
         padding-top: 4vh;
         
     }
-    p{font-size: 16px;
+    .ProjectHead p{font-size: 16px;
         padding: 10px;
     }
-    .project-content p {
-      font-size: 16px;
-        
-    }
+
 
     .SkillH3{
       padding-top: 4vh;
       font-size: 22px;
       
   }
-    .projectsummry h3{
-        padding-left: 10px;
-    }
-    .project-content {
-        
-        max-width: 92%;
-        padding-top: 7vh;
-        
-    }
+ 
+  .project-content{
+    width: 100%;
+  }
+  .project-content p{
+    width: 90vw;
+    font-size: 18px;
+    padding-left: 10vw;
+  }
+   
 
     .skill {font-size: 13px;}
     img{ 
-        width:89vw;
+ width: 100%;
+ 
+    
     }
     
 .ButtonsHead {
