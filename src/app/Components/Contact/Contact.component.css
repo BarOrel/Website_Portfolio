@@ -1,5 +1,5 @@
 .main {
-  background-color: #fff;
+  background-color: #ffffff;
   margin-top: -22px;
   width: 100%;
   opacity: 1;
@@ -92,4 +92,12 @@ a {
   .space {
     padding-left: 30px;
   }
+
+}
+@media (max-width:850px){
+
+  .programingimg{
+    display: none;
+    }
+  
 }

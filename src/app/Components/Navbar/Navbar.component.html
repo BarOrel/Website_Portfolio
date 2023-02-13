@@ -9,7 +9,7 @@
     <a (click)="NaviToHome()">Home</a>
     <a (click)="NaviToProjects()">Projects</a>
     <a (click)="NaviToAbout()" >About</a>
-    <a  (click)="NaviToContact()">Contact</a>
+    <a (click)="NaviToContact()">Contact</a>
   </div>
   <div class="dropdown"  *ngIf="currentWindowWidth < 750"   >
     <button class="dropbtn" (click)="OpenMenu()"><span class="material-symbols-outlined">
@@ -19,7 +19,7 @@
       <a (click)="NaviToHome()">Home</a>
       <a (click)="NaviToProjects()">Projects</a>
       <a (click)="NaviToAbout()">About</a>
-      <a href="#">Contact</a>
+      <a (click)="NaviToContact()">Contact</a>
     </div>
   </div>
 </div>
