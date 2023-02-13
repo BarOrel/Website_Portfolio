@@ -162,12 +162,14 @@ text-align: center;}
     font-size: 18px;
     padding-left: 10vw;
   }
-   
+  .project-content img{
+    width: 95vw;
+    padding-left: 8vw;}
 
     .skill {font-size: 13px;}
     img{ 
- width: 100%;
- 
+ width: 100vw;
+
     
     }
     
