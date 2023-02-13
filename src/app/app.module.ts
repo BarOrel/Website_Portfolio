@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './Components/About/About.component';
+import { ContactComponent } from './Components/Contact/Contact.component';
 import { FooterComponent } from './Components/Footer/Footer.component';
 import { NavbarComponent } from './Components/Navbar/Navbar.component';
 import { PressentationComponent } from './Components/Pressentation/Pressentation.component';
@@ -27,7 +28,8 @@ import { ScrollService } from './Services/ScrollService.service';
     FooterComponent,
     Project_1Component,
     Project_2Component,
-    Project_3Component
+    Project_3Component,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

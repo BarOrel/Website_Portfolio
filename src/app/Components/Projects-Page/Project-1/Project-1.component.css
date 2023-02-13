@@ -17,10 +17,10 @@ h1 {
 }
 .images{width: 90vw;}
 img{ 
-    width:70vw;
+    width:65vw;
 }
 .imgdiv{
-    width:50%;
+    width:100%;
     display: flex;
     justify-content: center;
 }
@@ -79,14 +79,21 @@ p {
     
 }
 .project-content {
-    max-width: 42%;
+    
     padding-top: 7vh;
     
 }
+.project-content p{
+  font-size: 25px;
+  max-width: 65vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+text-align: center;}
 
 .projectsummry h3{
    font-size: 30px;
    font-weight: 600;
+   text-align: center;
     
 }
 
