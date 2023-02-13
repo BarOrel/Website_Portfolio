@@ -96,6 +96,9 @@ a {
 }
 @media (max-width:850px){
 
+  .space {
+    padding-left: 30px;
+  }
   .programingimg{
     display: none;
     }
