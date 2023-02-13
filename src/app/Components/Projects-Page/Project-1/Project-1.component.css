@@ -1,6 +1,5 @@
 .main {
-  height: calc(70vh - 80px);
-  min-height: 500px;
+
   margin-top: 80px;
 
   background: radial-gradient(ellipse at bottom, #2c623ddb 0%, #356558 100%);
@@ -47,6 +46,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-bottom: 7vh;
 }
 .btns {
   display: flex;

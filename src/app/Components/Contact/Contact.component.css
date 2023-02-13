@@ -6,7 +6,6 @@
 }
 h1 {
   padding-top: 6vh;
-  
   font-size: 45px;
   text-align: center;
   text-transform: uppercase;
@@ -16,7 +15,9 @@ h1 {
   padding-bottom: 8vh;
 }
 p {
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 23px;
+  color: #555;
   text-align: center;
 }
 .Links {
@@ -25,11 +26,11 @@ p {
 }
 
 .Links a:hover {
-  border: 1px solid;
-  border-radius: 30px;
-  box-shadow: 2px 3px;
+  border: 1px solid transparent;
+  /* border-radius: 30px; */
+  /* box-shadow: 2px 3px; */
   -webkit-transition: 0.5s;
-  
+  opacity: 0.6;
 }
 .space {
   padding-left: 60px;
@@ -40,55 +41,36 @@ p {
   display: flex;
   justify-content: center;
 }
-
-.Phone {
+a {
   float: left;
   text-decoration: none;
   margin: auto;
   padding: 10px;
   border: 1px solid transparent;
-
+  font-weight: 600;
   font-size: 27px;
   display: flex;
+}
+.Phone {
+
   color: rgb(38, 67, 183);
 }
 .flex{display: flex;}
 
 .Whatsapp {
-  float: left;
-  padding: 10px;
-
-  border: 1px solid transparent;
-  text-decoration: none;
-  margin: auto;
-  font-size: 27px;
-  display: flex;
+ 
   color: rgb(47, 171, 36);
 }
 
 .LinkedIn{
 
-  padding: 10px;
-  border: 1px solid transparent;
-  
-  text-decoration: none;
-  float: left;
-  font-size: 27px;
-  display: flex;
+
   color: rgb(36, 113, 171);
 }
 
 .Email{
   
-  padding: 10px;
-  
-  border: 1px solid transparent;
-
-  text-decoration: none;
-  float: left;
-
-  font-size: 27px;
-  display: flex;
+ 
   color: rgb(205, 36, 36);
 }
 
@@ -96,11 +78,14 @@ p {
   height: 40px;
   display:block;
   margin:auto;
+  padding-right: 8px;
 }
 
 .profimg{height: 300px;}
 
-.programingimg{height: 50vh;}
+.programingimg{
+  padding-left: 20px;
+   height: 50vh;}
 
 
 @media (max-width:400px){

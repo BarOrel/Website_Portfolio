@@ -8,6 +8,12 @@ import { ScrollService } from 'src/app/Services/ScrollService.service';
   styleUrls: ['./Navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+async NaviToContact() {
+  await this.router.navigate(['']);
+    this.Scroll.scrollToContact();
+    if(this.currentWindowWidth < 750){
+    document.getElementById(`dropdown-content`)!.style.display='none';}
+}
 mobile:any;
 IsMenuOpen:boolean = false;
 public currentWindowWidth: number = 0;

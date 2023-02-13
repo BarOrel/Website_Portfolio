@@ -19,6 +19,10 @@ export class ScrollService {
     const element = this.__getElementById("About");
     this.scrollToElement(element);
   }
+  scrollToContact() {
+    const element = this.__getElementById("Contact");
+    this.scrollToElement(element);
+  }
 
   scrollToTop() {
     const element = this.__getElementById("ProjectPage");
