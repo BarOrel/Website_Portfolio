@@ -1,12 +1,13 @@
 .main {
-  
+  background-color: #fff;
   margin-top: -22px;
   width: 100%;
   opacity: 1;
 }
 h1 {
   padding-top: 6vh;
-  font-size: 40px;
+  
+  font-size: 45px;
   text-align: center;
   text-transform: uppercase;
 }
