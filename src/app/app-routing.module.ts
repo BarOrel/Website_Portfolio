@@ -12,9 +12,9 @@ import { ProjectComponent } from './Pages/Project/Project.component';
 const routes: Routes = [
   { path : '' , component: HomeComponent },
   { path : 'Project' , component: ProjectComponent  ,children:[
-    { path : 'ChatApplication' , component: Project_1Component },
-    { path : 'EcommerceApplication' , component: Project_2Component },
-    { path : '3' , component: Project_3Component },
+    { path : 'Chat-Application' , component: Project_1Component },
+    { path : 'E-Commerce-Computer-Store' , component: Project_2Component },
+    { path : 'Social-Media' , component: Project_3Component },
   ] }
 
 
