@@ -14,9 +14,11 @@ h1 {
   padding-top: 10vh;
   
 }
-.images{width: 90vw;}
+.images{width: 90vw;
+}
 img{ 
     width:65vw;
+    border-radius: 15px;
 }
 .imgdiv{
     width:100%;

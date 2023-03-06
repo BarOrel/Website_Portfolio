@@ -1,8 +1,203 @@
-.main{
-    height: calc(70vh - 80px);
+
+.main {
+
+    margin-top: 80px;
+  
+    background: radial-gradient(ellipse at bottom, #354c65 0%, #090a0f 100%);
+   
+  }
+  h1 {
+    color: #ffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+    padding-top: 10vh;
+    
+  }
+  .images{width: 90vw;}
+  img{ 
+      width:65vw;
+      border-radius: 15px;
+  }
+  .imgdiv{
+      width:100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .imgsec{
+      width:100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3vh;
+  }
+  
+  .line {
+    width: 150px;
+  }
+  
+  .ButtonsHead {
+    padding-top: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7vh;
+  }
+  .btns {
+    display: flex;
+  }
+  .space {
+    width: 30px;
+  }
+  .ProjectOverView {
+    /* height: calc(170vh - 80px); */
+    z-index: 3;
+    position: relative;
     min-height: 500px;
     margin-top: 80px;
-    background: radial-gradient(ellipse at bottom, #354c65 0%, #090a0f 100%);
+    background: #fff;
+  }
+  .projectsummry{
+  
+      
+      width:100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .project-content p{
+      color: #666;
+      text-align: left;
+      font-size: 19px;
+      padding-top: 0px;
+      line-height: 25px;
+      
+  }
+  .project-content {
+      
+      padding-top: 7vh;
+      
+  }
+  .project-content p{
+    font-size: 25px;
+    width: 65vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  text-align: center;}
+  
+  .projectsummry h3{
+     font-size: 30px;
+     font-weight: 600;
+     text-align: center;
+      
+  }
+  
+  .skill-section{
+  
+    padding-bottom: 10vh;
+  }
+  .SkillH3{
+      padding-top: 6vh;
+      font-size: 28px;
+      text-align: center;
+      
+  }
+  
+  .skillline {
+    display: flex;
+    margin-top: 20px;
     
-    
+    width:100%;
+    display: flex;
+    justify-content: center;
+      
     }
+    .skill {
+      margin-left: 17px;
+      font-size: 23px;
+      color: #666;
+      padding-left: 5px;
+      padding: 9px;
+      background-color: #e2e2e2;
+      border-radius: 5px;
+    }
+  
+  
+  
+  
+  
+  @media (max-width:800px){
+      /* .ProjectOverView {height: 220vh;}  */
+  
+      .main {
+        height: auto;}
+      .skill-section{
+        margin-left: -20px;
+       
+      }
+      h1{font-size: 33px;
+          padding-top: 4vh;
+          
+      }
+      .ProjectHead p{font-size: 16px;
+          padding: 10px;
+      }
+  
+  
+      .SkillH3{
+        padding-top: 4vh;
+        font-size: 22px;
+        
+    }
+   
+    .project-content{
+      width: 100%;
+      padding-top: 3vh;
+        
+  
+    }
+    .project-content p{
+      width: 90vw;
+      font-size: 16px;
+      padding-left: 10vw;
+    }
+    .project-content img{
+     margin-left: 5vw;
+     width: 90vw;
+     
+    }
+  
+      .skill {font-size: 13px;}
+      img{ 
+   width: 100vw;
+  
+      
+      }
+      
+  .ButtonsHead {
+      
+      padding-top: 3vh;}
+  
+  }
+  
+  /* 
+  @media (max-width:500px){
+    .ProjectOverView {height: 140vh;} 
+  }
+  
+  @media (max-height:700px){
+    .ProjectOverView {height: 190vh;} 
+  }
+  
+  @media (max-height:850px){
+    .ProjectOverView {height: 170vh;} 
+  }
+   */
+  
