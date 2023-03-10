@@ -114,6 +114,7 @@
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
+    border-radius:20px;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 250px;
